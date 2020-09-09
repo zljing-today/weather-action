@@ -24,6 +24,6 @@ jobs:
           password: ${{ secrets.MAILPASSWORD }}
           subject: Changsha Weather Report (${{env.REPORT_DATE}})
           body: file://result.html
-          to: mail@163.com
+          to: zljing@hnu.edu.cn
           from: GitHub Actions
           content_type: text/html
