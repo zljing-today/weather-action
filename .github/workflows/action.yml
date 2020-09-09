@@ -1,5 +1,5 @@
 name: 'GitHub Actions Weather Bot'
-
+ 
 on:
   push:
   schedule:
